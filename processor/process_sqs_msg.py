@@ -1,9 +1,6 @@
-import sys
-sys.path.append("C:\\Users\\Harinath Reddy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages")
-
 import boto3
 import json
-import pymysql # type: ignore
+import pymysql 
 
 # Initialize SQS client
 sqs = boto3.client('sqs', region_name='ap-south-1')
